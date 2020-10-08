@@ -1,0 +1,988 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13C3EF797DE695F31A4879B360AE1777 /* PGTransformAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6979B640BE064F5B8A4ACC3AFC7A531 /* PGTransformAlpha.swift */; };
+		152CA55FE3815FC843E968175FD29B54 /* PGTransformValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88CADB380166969496ED58D3610285 /* PGTransformValue.swift */; };
+		3E01124B94DEF0553F3ED91F014CBD0A /* PGTransformItemViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163AC173E14DA0B3E9479AAFE57DF06F /* PGTransformItemViews.swift */; };
+		4274A2A1656F3091606A81D1128CD7A6 /* Pods-Quizu2020Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89C943CBA605A9931B2F0EEECC12E64A /* Pods-Quizu2020Tests-dummy.m */; };
+		5660E3C83A8FFBAB00B87CD72C02654A /* Pods-Quizu2020-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C365AA7EB861D136E191497BF3E985B3 /* Pods-Quizu2020-dummy.m */; };
+		70B11E9533C9B56F73A9EDB5C6ECE180 /* PGTransformPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C8D8070185C70AE10D0700C53BB2E24 /* PGTransformPresentTransition.swift */; };
+		73DDD466DD37162961D54C7F9F93DB55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7AA7E17D6F86C189C3EDB4A2695D6B4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		83052A7265217769C08D7CE577B377CB /* PGEZTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC49D42D7534BC19C94500652CA8A85B /* PGEZTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB65A6B6CEF7BC95FBA6EC5AB36FDF2 /* Pods-Quizu2020-Quizu2020UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C2E70A663EA814C1031981654250E0 /* Pods-Quizu2020-Quizu2020UITests-dummy.m */; };
+		AAB19B4C077C98B7E75E77D3A93CAE19 /* PGEZTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B583D97C02EE16F3F1DDC519FF5BCC25 /* PGEZTransition-dummy.m */; };
+		B0162891F30626AE1D8BBD3577F851F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B6B8AC7BB202D79DA51D88DEEA2B52FD /* Pods-Quizu2020-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 711240FDFEB823804CBBD46120E298E0 /* Pods-Quizu2020-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C56E328163069E77C4C806B6BAB85716 /* Pods-Quizu2020Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F96FC82760E6330520D4D100FD77584 /* Pods-Quizu2020Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CED8147AC4401DD5A16DB1E0601444D7 /* PGTransformTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131F6A95B3214FFEE26E8EA0663E84F8 /* PGTransformTransition.swift */; };
+		EB8B28D827479F18AFD0FF2C10436443 /* Pods-Quizu2020-Quizu2020UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA911CDD331D2BF267CEADEF419AC17 /* Pods-Quizu2020-Quizu2020UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF33219E62A1E235F39FA0A97DEFD888 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FC2BC6DDC477C22F89E67B387C57199D /* PGTransformPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B729012EDE3A652CF596536DC74823B /* PGTransformPushTransition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7D8CE17C5D7C7C4FD9D34F71D6CF65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0170EAE783CB74101E105BBB5053F2;
+			remoteInfo = "Pods-Quizu2020";
+		};
+		BA55DE1C364B0DC22A5D923DA5025FBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C1E14CFFA03BDFC378DC69107662BB1;
+			remoteInfo = PGEZTransition;
+		};
+		FFFF4D528DBC77963F46B194A593B2FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C1E14CFFA03BDFC378DC69107662BB1;
+			remoteInfo = PGEZTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		026CC33E113178FF4087F2E68140B54B /* PGEZTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PGEZTransition.framework; path = PGEZTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		03FC8F9D4DD4D7BF77E0AE63672738EE /* PGEZTransition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGEZTransition.debug.xcconfig; sourceTree = "<group>"; };
+		0524343609107545697C62BD704989AF /* Pods-Quizu2020-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020-Info.plist"; sourceTree = "<group>"; };
+		08C489E0D8AB1732ABB56E44ED548A23 /* Pods-Quizu2020Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quizu2020Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E944B90F13D3188F865CD02E6D8DB59 /* Pods-Quizu2020Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020Tests-Info.plist"; sourceTree = "<group>"; };
+		131F6A95B3214FFEE26E8EA0663E84F8 /* PGTransformTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformTransition.swift; path = PGEZTransition/Classes/PGTransformTransition.swift; sourceTree = "<group>"; };
+		163AC173E14DA0B3E9479AAFE57DF06F /* PGTransformItemViews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformItemViews.swift; path = PGEZTransition/Classes/PGTransformItemViews.swift; sourceTree = "<group>"; };
+		1F88CADB380166969496ED58D3610285 /* PGTransformValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformValue.swift; path = PGEZTransition/Classes/PGTransformValue.swift; sourceTree = "<group>"; };
+		2C60D6CDB56A4E5D6D8D1C3EAA3E6ED2 /* Pods_Quizu2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quizu2020.framework; path = "Pods-Quizu2020.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32DC11AAC66E109D1AB2BABE215C8714 /* Pods-Quizu2020-Quizu2020UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quizu2020-Quizu2020UITests-frameworks.sh"; sourceTree = "<group>"; };
+		3F96FC82760E6330520D4D100FD77584 /* Pods-Quizu2020Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quizu2020Tests-umbrella.h"; sourceTree = "<group>"; };
+		403B3B090D03DF4B1F383EE4F7FD6F8F /* Pods-Quizu2020-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quizu2020-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4640822FE16968029FCF2708BA633BFB /* Pods-Quizu2020.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quizu2020.modulemap"; sourceTree = "<group>"; };
+		548AA4D98313CFB0B366B52C3F9316D3 /* Pods-Quizu2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020.release.xcconfig"; sourceTree = "<group>"; };
+		553E7EB69C341A263A9CC8278F685BD1 /* Pods-Quizu2020Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8D8070185C70AE10D0700C53BB2E24 /* PGTransformPresentTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformPresentTransition.swift; path = PGEZTransition/Classes/PGTransformPresentTransition.swift; sourceTree = "<group>"; };
+		5D248CB4796DA9BE4E778DB5A6B9D409 /* Pods-Quizu2020Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D40F231470991990A5B3BDF73F5B6E1 /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020-Quizu2020UITests.release.xcconfig"; sourceTree = "<group>"; };
+		62DEA1AAAE630B6FC4FFC38A6C84C086 /* Pods-Quizu2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020.debug.xcconfig"; sourceTree = "<group>"; };
+		6386AD0CDDF5397A00B121C4D7FDD85D /* Pods-Quizu2020-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Quizu2020-frameworks.sh"; sourceTree = "<group>"; };
+		6B348F3C26B2BD9AB73846B369C259EC /* Pods-Quizu2020-Quizu2020UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020-Quizu2020UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B729012EDE3A652CF596536DC74823B /* PGTransformPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformPushTransition.swift; path = PGEZTransition/Classes/PGTransformPushTransition.swift; sourceTree = "<group>"; };
+		6EA911CDD331D2BF267CEADEF419AC17 /* Pods-Quizu2020-Quizu2020UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quizu2020-Quizu2020UITests-umbrella.h"; sourceTree = "<group>"; };
+		711240FDFEB823804CBBD46120E298E0 /* Pods-Quizu2020-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Quizu2020-umbrella.h"; sourceTree = "<group>"; };
+		7FEC2238D8E32B959B44A4BFEE6DB29E /* Pods-Quizu2020-Quizu2020UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quizu2020-Quizu2020UITests.modulemap"; sourceTree = "<group>"; };
+		89C943CBA605A9931B2F0EEECC12E64A /* Pods-Quizu2020Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quizu2020Tests-dummy.m"; sourceTree = "<group>"; };
+		954B040D4C0E6C7FE9D286DE2D8AC5AA /* PGEZTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PGEZTransition.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFFE25C7B5F3F5005701AE8ADE22A88 /* Pods-Quizu2020Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B15EAB09688086F502F9DF2842511C46 /* PGEZTransition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PGEZTransition.release.xcconfig; sourceTree = "<group>"; };
+		B583D97C02EE16F3F1DDC519FF5BCC25 /* PGEZTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PGEZTransition-dummy.m"; sourceTree = "<group>"; };
+		C365AA7EB861D136E191497BF3E985B3 /* Pods-Quizu2020-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quizu2020-dummy.m"; sourceTree = "<group>"; };
+		C5AAE14F1A6D49001CBD0934F562B218 /* Pods-Quizu2020-Quizu2020UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Quizu2020-Quizu2020UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6385B90FC794640561CCA0A68A87469 /* Pods-Quizu2020Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Quizu2020Tests.modulemap"; sourceTree = "<group>"; };
+		C7DB59D9F781650C92E10038B4D3261E /* Pods_Quizu2020Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quizu2020Tests.framework; path = "Pods-Quizu2020Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C91FF3C014ED8F8A7A38D8B5110C2DB0 /* PGEZTransition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PGEZTransition-Info.plist"; sourceTree = "<group>"; };
+		CE20263C79E706457D362E13C6362EC5 /* Pods-Quizu2020-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2C2E70A663EA814C1031981654250E0 /* Pods-Quizu2020-Quizu2020UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Quizu2020-Quizu2020UITests-dummy.m"; sourceTree = "<group>"; };
+		D6979B640BE064F5B8A4ACC3AFC7A531 /* PGTransformAlpha.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PGTransformAlpha.swift; path = PGEZTransition/Classes/PGTransformAlpha.swift; sourceTree = "<group>"; };
+		DC49D42D7534BC19C94500652CA8A85B /* PGEZTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGEZTransition-umbrella.h"; sourceTree = "<group>"; };
+		E83359AE65EE6FC29FE3EF4CE95B9E6A /* Pods-Quizu2020-Quizu2020UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Quizu2020-Quizu2020UITests-Info.plist"; sourceTree = "<group>"; };
+		EFF82878A633E484B4E12DEA2F65DEC1 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Quizu2020-Quizu2020UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F946DDA841ED7DBEF363623BD6B87952 /* Pods_Quizu2020_Quizu2020UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Quizu2020_Quizu2020UITests.framework; path = "Pods-Quizu2020-Quizu2020UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA094F9713BEED25CF096901AB9819FF /* PGEZTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PGEZTransition-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10A391BA0C47F11B441A06D8674B841A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA7E17D6F86C189C3EDB4A2695D6B4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6153B9DE2D5F28BA8F40DFCDB35A1AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF33219E62A1E235F39FA0A97DEFD888 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D511801E3B05E6F684A2C10CB61267 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73DDD466DD37162961D54C7F9F93DB55 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D2322EC42536C74D72BFF10A8044D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0162891F30626AE1D8BBD3577F851F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFD6C1AD137F90B12AC3CE80E5F0DCD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FE410023113A9760AAA5F707429218 /* Pods-Quizu2020 */,
+				80E2725F5283B7759BBCB0A3433E0763 /* Pods-Quizu2020-Quizu2020UITests */,
+				3EA4B4F3A961FB2CD4C1B1487D2DDB8D /* Pods-Quizu2020Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EA4B4F3A961FB2CD4C1B1487D2DDB8D /* Pods-Quizu2020Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C6385B90FC794640561CCA0A68A87469 /* Pods-Quizu2020Tests.modulemap */,
+				08C489E0D8AB1732ABB56E44ED548A23 /* Pods-Quizu2020Tests-acknowledgements.markdown */,
+				5D248CB4796DA9BE4E778DB5A6B9D409 /* Pods-Quizu2020Tests-acknowledgements.plist */,
+				89C943CBA605A9931B2F0EEECC12E64A /* Pods-Quizu2020Tests-dummy.m */,
+				0E944B90F13D3188F865CD02E6D8DB59 /* Pods-Quizu2020Tests-Info.plist */,
+				3F96FC82760E6330520D4D100FD77584 /* Pods-Quizu2020Tests-umbrella.h */,
+				553E7EB69C341A263A9CC8278F685BD1 /* Pods-Quizu2020Tests.debug.xcconfig */,
+				9EFFE25C7B5F3F5005701AE8ADE22A88 /* Pods-Quizu2020Tests.release.xcconfig */,
+			);
+			name = "Pods-Quizu2020Tests";
+			path = "Target Support Files/Pods-Quizu2020Tests";
+			sourceTree = "<group>";
+		};
+		6F937B78B5D11A68BE6AD8F20067952E /* PGEZTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D6979B640BE064F5B8A4ACC3AFC7A531 /* PGTransformAlpha.swift */,
+				163AC173E14DA0B3E9479AAFE57DF06F /* PGTransformItemViews.swift */,
+				5C8D8070185C70AE10D0700C53BB2E24 /* PGTransformPresentTransition.swift */,
+				6B729012EDE3A652CF596536DC74823B /* PGTransformPushTransition.swift */,
+				131F6A95B3214FFEE26E8EA0663E84F8 /* PGTransformTransition.swift */,
+				1F88CADB380166969496ED58D3610285 /* PGTransformValue.swift */,
+				92A3D771C8FE233C42F93B7031C12736 /* Support Files */,
+			);
+			name = PGEZTransition;
+			path = PGEZTransition;
+			sourceTree = "<group>";
+		};
+		80E2725F5283B7759BBCB0A3433E0763 /* Pods-Quizu2020-Quizu2020UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC2238D8E32B959B44A4BFEE6DB29E /* Pods-Quizu2020-Quizu2020UITests.modulemap */,
+				C5AAE14F1A6D49001CBD0934F562B218 /* Pods-Quizu2020-Quizu2020UITests-acknowledgements.markdown */,
+				6B348F3C26B2BD9AB73846B369C259EC /* Pods-Quizu2020-Quizu2020UITests-acknowledgements.plist */,
+				D2C2E70A663EA814C1031981654250E0 /* Pods-Quizu2020-Quizu2020UITests-dummy.m */,
+				32DC11AAC66E109D1AB2BABE215C8714 /* Pods-Quizu2020-Quizu2020UITests-frameworks.sh */,
+				E83359AE65EE6FC29FE3EF4CE95B9E6A /* Pods-Quizu2020-Quizu2020UITests-Info.plist */,
+				6EA911CDD331D2BF267CEADEF419AC17 /* Pods-Quizu2020-Quizu2020UITests-umbrella.h */,
+				EFF82878A633E484B4E12DEA2F65DEC1 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */,
+				5D40F231470991990A5B3BDF73F5B6E1 /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */,
+			);
+			name = "Pods-Quizu2020-Quizu2020UITests";
+			path = "Target Support Files/Pods-Quizu2020-Quizu2020UITests";
+			sourceTree = "<group>";
+		};
+		92A3D771C8FE233C42F93B7031C12736 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				954B040D4C0E6C7FE9D286DE2D8AC5AA /* PGEZTransition.modulemap */,
+				B583D97C02EE16F3F1DDC519FF5BCC25 /* PGEZTransition-dummy.m */,
+				C91FF3C014ED8F8A7A38D8B5110C2DB0 /* PGEZTransition-Info.plist */,
+				FA094F9713BEED25CF096901AB9819FF /* PGEZTransition-prefix.pch */,
+				DC49D42D7534BC19C94500652CA8A85B /* PGEZTransition-umbrella.h */,
+				03FC8F9D4DD4D7BF77E0AE63672738EE /* PGEZTransition.debug.xcconfig */,
+				B15EAB09688086F502F9DF2842511C46 /* PGEZTransition.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PGEZTransition";
+			sourceTree = "<group>";
+		};
+		9D2B7266E390DB504BAE134E672F83C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				026CC33E113178FF4087F2E68140B54B /* PGEZTransition.framework */,
+				2C60D6CDB56A4E5D6D8D1C3EAA3E6ED2 /* Pods_Quizu2020.framework */,
+				F946DDA841ED7DBEF363623BD6B87952 /* Pods_Quizu2020_Quizu2020UITests.framework */,
+				C7DB59D9F781650C92E10038B4D3261E /* Pods_Quizu2020Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C7FE410023113A9760AAA5F707429218 /* Pods-Quizu2020 */ = {
+			isa = PBXGroup;
+			children = (
+				4640822FE16968029FCF2708BA633BFB /* Pods-Quizu2020.modulemap */,
+				403B3B090D03DF4B1F383EE4F7FD6F8F /* Pods-Quizu2020-acknowledgements.markdown */,
+				CE20263C79E706457D362E13C6362EC5 /* Pods-Quizu2020-acknowledgements.plist */,
+				C365AA7EB861D136E191497BF3E985B3 /* Pods-Quizu2020-dummy.m */,
+				6386AD0CDDF5397A00B121C4D7FDD85D /* Pods-Quizu2020-frameworks.sh */,
+				0524343609107545697C62BD704989AF /* Pods-Quizu2020-Info.plist */,
+				711240FDFEB823804CBBD46120E298E0 /* Pods-Quizu2020-umbrella.h */,
+				62DEA1AAAE630B6FC4FFC38A6C84C086 /* Pods-Quizu2020.debug.xcconfig */,
+				548AA4D98313CFB0B366B52C3F9316D3 /* Pods-Quizu2020.release.xcconfig */,
+			);
+			name = "Pods-Quizu2020";
+			path = "Target Support Files/Pods-Quizu2020";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D1669B0A9E7D16BDE775A89E92B3C0B0 /* Pods */,
+				9D2B7266E390DB504BAE134E672F83C1 /* Products */,
+				0DFD6C1AD137F90B12AC3CE80E5F0DCD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1669B0A9E7D16BDE775A89E92B3C0B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F937B78B5D11A68BE6AD8F20067952E /* PGEZTransition */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07A5D106140AA9322FA831674BF085FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6B8AC7BB202D79DA51D88DEEA2B52FD /* Pods-Quizu2020-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		157A103EDCC8EDE1108C5B0A9250BAA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB8B28D827479F18AFD0FF2C10436443 /* Pods-Quizu2020-Quizu2020UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E9183616888DB1C57D8B68B4482FCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83052A7265217769C08D7CE577B377CB /* PGEZTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C211B1276A036A7BB3D52C6B2C16087 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C56E328163069E77C4C806B6BAB85716 /* Pods-Quizu2020Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		065523E32581695CFA40CA1ABD6456F5 /* Pods-Quizu2020Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C15C0DFCDA4F75141D9DD658135D732 /* Build configuration list for PBXNativeTarget "Pods-Quizu2020Tests" */;
+			buildPhases = (
+				6C211B1276A036A7BB3D52C6B2C16087 /* Headers */,
+				DFB42ABC9C368574BF995F955E8A109C /* Sources */,
+				8D2322EC42536C74D72BFF10A8044D2B /* Frameworks */,
+				263CC486BCC7A7C3E98B12C588535D35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDA5E4A9652F9E46D2DD49CB72D06AA /* PBXTargetDependency */,
+			);
+			name = "Pods-Quizu2020Tests";
+			productName = "Pods-Quizu2020Tests";
+			productReference = C7DB59D9F781650C92E10038B4D3261E /* Pods_Quizu2020Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C1E14CFFA03BDFC378DC69107662BB1 /* PGEZTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C859DA03650AAE8CD3B7E7374E435B /* Build configuration list for PBXNativeTarget "PGEZTransition" */;
+			buildPhases = (
+				52E9183616888DB1C57D8B68B4482FCA /* Headers */,
+				E6FEC17F3613F472E5A7EC1B28BAE856 /* Sources */,
+				10A391BA0C47F11B441A06D8674B841A /* Frameworks */,
+				032483960EC3781428E87BB13FD6DD9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PGEZTransition;
+			productName = PGEZTransition;
+			productReference = 026CC33E113178FF4087F2E68140B54B /* PGEZTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB0170EAE783CB74101E105BBB5053F2 /* Pods-Quizu2020 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD7EEC45054F7DBBA8C558BB685D6297 /* Build configuration list for PBXNativeTarget "Pods-Quizu2020" */;
+			buildPhases = (
+				07A5D106140AA9322FA831674BF085FE /* Headers */,
+				36C236CEAA65AA18883A0698F60873D2 /* Sources */,
+				6153B9DE2D5F28BA8F40DFCDB35A1AA7 /* Frameworks */,
+				7EFD4B658D0C5DB550E6735E185F94B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5B500082010780947F1794B891CF842 /* PBXTargetDependency */,
+			);
+			name = "Pods-Quizu2020";
+			productName = "Pods-Quizu2020";
+			productReference = 2C60D6CDB56A4E5D6D8D1C3EAA3E6ED2 /* Pods_Quizu2020.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D4EC732BA8F071EF0C60284956C283B6 /* Pods-Quizu2020-Quizu2020UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2945A1C0B4C4FB8668B202E418B32C /* Build configuration list for PBXNativeTarget "Pods-Quizu2020-Quizu2020UITests" */;
+			buildPhases = (
+				157A103EDCC8EDE1108C5B0A9250BAA2 /* Headers */,
+				1F33C5B02D8F1DAEDE00B514A386AFEA /* Sources */,
+				69D511801E3B05E6F684A2C10CB61267 /* Frameworks */,
+				CDB8C738B8A951AF72934F2E2AAFD048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C219A6E1C36C337869CB6881FC511045 /* PBXTargetDependency */,
+			);
+			name = "Pods-Quizu2020-Quizu2020UITests";
+			productName = "Pods-Quizu2020-Quizu2020UITests";
+			productReference = F946DDA841ED7DBEF363623BD6B87952 /* Pods_Quizu2020_Quizu2020UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9D2B7266E390DB504BAE134E672F83C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C1E14CFFA03BDFC378DC69107662BB1 /* PGEZTransition */,
+				AB0170EAE783CB74101E105BBB5053F2 /* Pods-Quizu2020 */,
+				D4EC732BA8F071EF0C60284956C283B6 /* Pods-Quizu2020-Quizu2020UITests */,
+				065523E32581695CFA40CA1ABD6456F5 /* Pods-Quizu2020Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		032483960EC3781428E87BB13FD6DD9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263CC486BCC7A7C3E98B12C588535D35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EFD4B658D0C5DB550E6735E185F94B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDB8C738B8A951AF72934F2E2AAFD048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F33C5B02D8F1DAEDE00B514A386AFEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB65A6B6CEF7BC95FBA6EC5AB36FDF2 /* Pods-Quizu2020-Quizu2020UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C236CEAA65AA18883A0698F60873D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5660E3C83A8FFBAB00B87CD72C02654A /* Pods-Quizu2020-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB42ABC9C368574BF995F955E8A109C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4274A2A1656F3091606A81D1128CD7A6 /* Pods-Quizu2020Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FEC17F3613F472E5A7EC1B28BAE856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB19B4C077C98B7E75E77D3A93CAE19 /* PGEZTransition-dummy.m in Sources */,
+				13C3EF797DE695F31A4879B360AE1777 /* PGTransformAlpha.swift in Sources */,
+				3E01124B94DEF0553F3ED91F014CBD0A /* PGTransformItemViews.swift in Sources */,
+				70B11E9533C9B56F73A9EDB5C6ECE180 /* PGTransformPresentTransition.swift in Sources */,
+				FC2BC6DDC477C22F89E67B387C57199D /* PGTransformPushTransition.swift in Sources */,
+				CED8147AC4401DD5A16DB1E0601444D7 /* PGTransformTransition.swift in Sources */,
+				152CA55FE3815FC843E968175FD29B54 /* PGTransformValue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C219A6E1C36C337869CB6881FC511045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGEZTransition;
+			target = 7C1E14CFFA03BDFC378DC69107662BB1 /* PGEZTransition */;
+			targetProxy = BA55DE1C364B0DC22A5D923DA5025FBA /* PBXContainerItemProxy */;
+		};
+		D5B500082010780947F1794B891CF842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PGEZTransition;
+			target = 7C1E14CFFA03BDFC378DC69107662BB1 /* PGEZTransition */;
+			targetProxy = FFFF4D528DBC77963F46B194A593B2FC /* PBXContainerItemProxy */;
+		};
+		DDDA5E4A9652F9E46D2DD49CB72D06AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Quizu2020";
+			target = AB0170EAE783CB74101E105BBB5053F2 /* Pods-Quizu2020 */;
+			targetProxy = 1F7D8CE17C5D7C7C4FD9D34F71D6CF65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		362D5F63303D49477944534E714542C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553E7EB69C341A263A9CC8278F685BD1 /* Pods-Quizu2020Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		36A2A5AFB5CD41A49CEFA801451E7AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DEA1AAAE630B6FC4FFC38A6C84C086 /* Pods-Quizu2020.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CBBA0CB1DC816755E45E8DFF09BA98F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF82878A633E484B4E12DEA2F65DEC1 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63A572E8D7A91B168707FF0C743D6654 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D40F231470991990A5B3BDF73F5B6E1 /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		645A1CBF49A00A4C27E3865EC9C5091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 548AA4D98313CFB0B366B52C3F9316D3 /* Pods-Quizu2020.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79AA78D5AF50076AA421C78F07EE68FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EFFE25C7B5F3F5005701AE8ADE22A88 /* Pods-Quizu2020Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8DB5D7C5315DA291AC36E57AC0B1477E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B15EAB09688086F502F9DF2842511C46 /* PGEZTransition.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGEZTransition/PGEZTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGEZTransition/PGEZTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PGEZTransition/PGEZTransition.modulemap";
+				PRODUCT_MODULE_NAME = PGEZTransition;
+				PRODUCT_NAME = PGEZTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF1F8D2941B0228930706FA0F2C9BB78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E96AF9AFFD8F0C38B9717BF29AFE2BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03FC8F9D4DD4D7BF77E0AE63672738EE /* PGEZTransition.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PGEZTransition/PGEZTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PGEZTransition/PGEZTransition-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PGEZTransition/PGEZTransition.modulemap";
+				PRODUCT_MODULE_NAME = PGEZTransition;
+				PRODUCT_NAME = PGEZTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3650F6C8AC2EFFA814EA61C37468B1 /* Debug */,
+				AF1F8D2941B0228930706FA0F2C9BB78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C15C0DFCDA4F75141D9DD658135D732 /* Build configuration list for PBXNativeTarget "Pods-Quizu2020Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362D5F63303D49477944534E714542C3 /* Debug */,
+				79AA78D5AF50076AA421C78F07EE68FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2945A1C0B4C4FB8668B202E418B32C /* Build configuration list for PBXNativeTarget "Pods-Quizu2020-Quizu2020UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CBBA0CB1DC816755E45E8DFF09BA98F /* Debug */,
+				63A572E8D7A91B168707FF0C743D6654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C859DA03650AAE8CD3B7E7374E435B /* Build configuration list for PBXNativeTarget "PGEZTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E96AF9AFFD8F0C38B9717BF29AFE2BF3 /* Debug */,
+				8DB5D7C5315DA291AC36E57AC0B1477E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD7EEC45054F7DBBA8C558BB685D6297 /* Build configuration list for PBXNativeTarget "Pods-Quizu2020" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36A2A5AFB5CD41A49CEFA801451E7AF5 /* Debug */,
+				645A1CBF49A00A4C27E3865EC9C5091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

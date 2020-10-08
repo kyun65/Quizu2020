@@ -1,0 +1,16 @@
+PODS:
+  - PGEZTransition (1.1.2)
+
+DEPENDENCIES:
+  - PGEZTransition
+
+SPEC REPOS:
+  trunk:
+    - PGEZTransition
+
+SPEC CHECKSUMS:
+  PGEZTransition: 97fcec2efcef7c1f82de47b3ecddc2b48a178ce3
+
+PODFILE CHECKSUM: 5214acb54e9414ab5df12959b96dcda0eba4677d
+
+COCOAPODS: 1.9.3

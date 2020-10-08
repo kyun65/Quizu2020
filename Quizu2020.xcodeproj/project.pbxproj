@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7339B7407137BDEA069812 /* Pods_Quizu2020.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EDDC73A51712258C848B71B /* Pods_Quizu2020.framework */; };
+		D3590011545BFD66F22B49D2 /* Pods_Quizu2020Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5321BBD646D4A607639559 /* Pods_Quizu2020Tests.framework */; };
+		DEDD30B892192E934CAC04D4 /* Pods_Quizu2020_Quizu2020UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CB5256E4052C93BE843D9D /* Pods_Quizu2020_Quizu2020UITests.framework */; };
 		DF9A8770252C4CC2004B325E /* QuizuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9A876F252C4CC2004B325E /* QuizuViewController.swift */; };
 		DFE257ED252C53A400AA878A /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = DFE257EC252C53A400AA878A /* quiz.csv */; };
 		DFE257F5252C5E7700AA878A /* quiz2.csv in Resources */ = {isa = PBXBuildFile; fileRef = DFE257F4252C5E7700AA878A /* quiz2.csv */; };
@@ -43,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203147ED70A74B44A2BB7934 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020-Quizu2020UITests.debug.xcconfig"; path = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD1387E0EC7A123402372AE /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020-Quizu2020UITests.release.xcconfig"; path = "Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3EDDC73A51712258C848B71B /* Pods_Quizu2020.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizu2020.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E453AF06CF2CF7B6066D88F /* Pods-Quizu2020.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020.release.xcconfig"; path = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020.release.xcconfig"; sourceTree = "<group>"; };
+		89CB5256E4052C93BE843D9D /* Pods_Quizu2020_Quizu2020UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizu2020_Quizu2020UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B52ECD5DBA88216AFD5FAE5 /* Pods-Quizu2020Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020Tests.debug.xcconfig"; path = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A722379BDAFB1E13BFFC2800 /* Pods-Quizu2020Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020Tests.release.xcconfig"; path = "Target Support Files/Pods-Quizu2020Tests/Pods-Quizu2020Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF9A876F252C4CC2004B325E /* QuizuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizuViewController.swift; sourceTree = "<group>"; };
 		DFE257EC252C53A400AA878A /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
 		DFE257F4252C5E7700AA878A /* quiz2.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz2.csv; sourceTree = "<group>"; };
@@ -65,6 +75,8 @@
 		DFFF6906252AB65B00C9A4D5 /* EntryNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryNameViewController.swift; sourceTree = "<group>"; };
 		DFFF690E252AB67B00C9A4D5 /* SelectGenreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectGenreViewController.swift; sourceTree = "<group>"; };
 		DFFF6913252B1EC000C9A4D5 /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		E97B3BB20BCD29F1E768F9CF /* Pods-Quizu2020.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quizu2020.debug.xcconfig"; path = "Target Support Files/Pods-Quizu2020/Pods-Quizu2020.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5321BBD646D4A607639559 /* Pods_Quizu2020Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quizu2020Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B7339B7407137BDEA069812 /* Pods_Quizu2020.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3590011545BFD66F22B49D2 /* Pods_Quizu2020Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,12 +100,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEDD30B892192E934CAC04D4 /* Pods_Quizu2020_Quizu2020UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9710EA2695DAD889FAF535CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EDDC73A51712258C848B71B /* Pods_Quizu2020.framework */,
+				89CB5256E4052C93BE843D9D /* Pods_Quizu2020_Quizu2020UITests.framework */,
+				EF5321BBD646D4A607639559 /* Pods_Quizu2020Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A112658DC7F51F70213633BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97B3BB20BCD29F1E768F9CF /* Pods-Quizu2020.debug.xcconfig */,
+				4E453AF06CF2CF7B6066D88F /* Pods-Quizu2020.release.xcconfig */,
+				203147ED70A74B44A2BB7934 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */,
+				3BD1387E0EC7A123402372AE /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */,
+				9B52ECD5DBA88216AFD5FAE5 /* Pods-Quizu2020Tests.debug.xcconfig */,
+				A722379BDAFB1E13BFFC2800 /* Pods-Quizu2020Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DFFF68BE252AB45B00C9A4D5 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +138,8 @@
 				DFFF68E0252AB45D00C9A4D5 /* Quizu2020Tests */,
 				DFFF68EB252AB45D00C9A4D5 /* Quizu2020UITests */,
 				DFFF68C8252AB45B00C9A4D5 /* Products */,
+				A112658DC7F51F70213633BC /* Pods */,
+				9710EA2695DAD889FAF535CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -183,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFFF68F1252AB45D00C9A4D5 /* Build configuration list for PBXNativeTarget "Quizu2020" */;
 			buildPhases = (
+				384E5163A4AA479019B09B6A /* [CP] Check Pods Manifest.lock */,
 				DFFF68C3252AB45B00C9A4D5 /* Sources */,
 				DFFF68C4252AB45B00C9A4D5 /* Frameworks */,
 				DFFF68C5252AB45B00C9A4D5 /* Resources */,
+				2B5741A0BBEDFA898ABF5D64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -200,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFFF68F4252AB45D00C9A4D5 /* Build configuration list for PBXNativeTarget "Quizu2020Tests" */;
 			buildPhases = (
+				2025BA772E04692444E52817 /* [CP] Check Pods Manifest.lock */,
 				DFFF68D9252AB45D00C9A4D5 /* Sources */,
 				DFFF68DA252AB45D00C9A4D5 /* Frameworks */,
 				DFFF68DB252AB45D00C9A4D5 /* Resources */,
@@ -218,9 +262,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DFFF68F7252AB45D00C9A4D5 /* Build configuration list for PBXNativeTarget "Quizu2020UITests" */;
 			buildPhases = (
+				7D0A2F8A43A1975C9179918F /* [CP] Check Pods Manifest.lock */,
 				DFFF68E4252AB45D00C9A4D5 /* Sources */,
 				DFFF68E5252AB45D00C9A4D5 /* Frameworks */,
 				DFFF68E6252AB45D00C9A4D5 /* Resources */,
+				2F41255F13E59A6D48638624 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -303,6 +349,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2025BA772E04692444E52817 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quizu2020Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B5741A0BBEDFA898ABF5D64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quizu2020/Pods-Quizu2020-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quizu2020/Pods-Quizu2020-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quizu2020/Pods-Quizu2020-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F41255F13E59A6D48638624 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Quizu2020-Quizu2020UITests/Pods-Quizu2020-Quizu2020UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		384E5163A4AA479019B09B6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quizu2020-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0A2F8A43A1975C9179918F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Quizu2020-Quizu2020UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DFFF68C3252AB45B00C9A4D5 /* Sources */ = {
@@ -489,6 +638,7 @@
 		};
 		DFFF68F2252AB45D00C9A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97B3BB20BCD29F1E768F9CF /* Pods-Quizu2020.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -508,6 +658,7 @@
 		};
 		DFFF68F3252AB45D00C9A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E453AF06CF2CF7B6066D88F /* Pods-Quizu2020.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -527,6 +678,7 @@
 		};
 		DFFF68F5252AB45D00C9A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B52ECD5DBA88216AFD5FAE5 /* Pods-Quizu2020Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +701,7 @@
 		};
 		DFFF68F6252AB45D00C9A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A722379BDAFB1E13BFFC2800 /* Pods-Quizu2020Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +724,7 @@
 		};
 		DFFF68F8252AB45D00C9A4D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203147ED70A74B44A2BB7934 /* Pods-Quizu2020-Quizu2020UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -591,6 +745,7 @@
 		};
 		DFFF68F9252AB45D00C9A4D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BD1387E0EC7A123402372AE /* Pods-Quizu2020-Quizu2020UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
